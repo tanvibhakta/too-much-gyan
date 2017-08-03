@@ -1,5 +1,35 @@
 loose-connection:
-  genre: 
+  genre: Romantic Comedy
+  director:
+    - Rj Haseen Khan
+    - Sham Khan
+    - Raghu Shastry
+  producer:
+    - Rj Pradeepa
+    - Sakkath Studio
+  screenplay: Haseen khan and Sham khan
+  summary: The story is all bout Moni the protagonist and his connection with his three Girl friends in the past, present and future.
+  cast:
+    - Sunil
+    - Sindu Loknath
+    - Anupam Gowda
+    - Vinayak Joshi
+    - Babu Hiranaiyya
+    - Lakshmi Chandrashekar
+    - Maja Talkies Pavan
+    - Sundar
+    - Veena Sundar
+    - Gowri
+    - Rj Vicky
+    - Naveen
+  characters:
+    -
+    -
+  launch-date: 2nd August, 2017
+
+
+loose-connection:
+  genre:
   director:
   producer:
   produced-by:
