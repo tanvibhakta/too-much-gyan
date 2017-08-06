@@ -1,0 +1,63 @@
+---
+webSeries:
+- sys:
+    id: 4fKgiZC8yccM2KICW0qMOI
+    created_at: !ruby/object:DateTime 2017-08-06 12:59:54.666000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-06 14:57:37.452000000 Z
+    content_type_id: webSeries
+  name_of_the_webseries: Loose Connection
+  genre:
+  - Romantic Comedy
+  launch_date: !ruby/object:DateTime 2017-08-02 00:00:00.000000000 Z
+  directed_by:
+  - Rj Haseen khan
+  - Sham Khan
+  - Raghu shastry
+  screenplay_by: Haseen khan and Sham khan
+  produced_by:
+  - RJ Pradeepa
+  - Sakatth Studio
+  language: Kannada
+  cast_members:
+  - Sunil Raoh
+  - Sindu Loknath
+  - Anupam Gowda
+  - Gauri
+  - Anupama
+  - Vinayak Joshi
+  - Rj Vikki
+  - Lakshmi Chandrashekar
+  - Babu Hiranaiyya
+  - Maja Talkies Pavan
+  - Sundar
+  - Veena Sundar
+  - Gowri
+  - Naveen
+  characters_in_the_same_order_as_played_by_the_cast: 'Monikanth, Acchari, Anusha,
+    Dimpy, Rocky Balboa, Nasa, Moni`s mother, Moni''s father, Astrologer '
+  summary: "\n## Loose Connection\n\n### Summary\nThe story is about a derailed lover
+    and his connection with his 3 girlfriends. Story begins with the protagonist ending
+    his 6 yr long relationship with his first lover whilst he's still a virgin.\n\n###
+    About:\nFirst official Kannada Webseries loose connection garnered around 1 lakh
+    views on its third day of release over Youtube.\n\nThe New-Generation Romcom has
+    11 Webisodes\n\n### Virgin Moni: Webisode 01 \n\nMonikanth or Moni breaks up with
+    his girlfriend Dimpy only to realise that he still cares for her. Heart broken
+    Moni spends his time boozing and brooding over his first break up. Moni's parents
+    now are concerned about their son's unusual behaviour.This concern triggers Moni
+    to move in with his cocaine loving crack-head friend Nasa who lives just a block
+    away from Moni's apartment. Enter Nasa, a pot loving junkie with a foggy space-station
+    helps Moni's to take control of the situation. Nasa introduces Moni to his world
+    of animal erotica and his stoned room mate Zapak. Later in the day Nasa's girl
+    Sony gets to know of the plight of Moni when she visits their apartment and invites
+    the derailed hero for a party. Moni takesup the offer only to end up losing his
+    virginity.\n\n### TBA: Webisode 02 \n\n_Watch out for this space!_\n\n"
+  feature_photo:
+    sys:
+      id: iw7a9VZjjM6WmGssAsOay
+      created_at: !ruby/object:DateTime 2017-08-05 08:15:56.768000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-05 08:15:56.768000000 Z
+    title: 'Loose Connection '
+    description: " Moni (Sunil Raoh) and his Loose Connection with his three girlfriends. "
+    url: "//images.contentful.com/lb6bcekn0913/iw7a9VZjjM6WmGssAsOay/05518c40ace3d8fa9340a8bf98ba249f/IMG-20170729-WA0047.jpg"
+  average_run_time_in_minutes: 20
+  overall_rating_of_show: 5

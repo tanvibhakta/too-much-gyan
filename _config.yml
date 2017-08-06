@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Too Much Gyan
-email: tanvibhakta@gmail.com 
+email: tanvibhakta@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://test.toomuchgyan.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: 
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
@@ -43,3 +43,21 @@ paginate:            5
 sass:
   sass_dir: assets/css
   style: :nested
+
+contentful:
+  spaces:
+    - webseries-contentful: # Jekyll _data folder identifier - Required
+        space: lb6bcekn0913         # Required
+        access_token: 8e9a3ff6c1f8f93d9b966ccde0908ece29675bcddcd688a22f2f4823e24f1391  # Required
+        cda_query:                  # Optional
+          include: 2
+          limit: 100
+        all_entries: true           # Optional - Defaults to false, only grabbing the amount set on CDA Query
+        all_entries_page_size: 1000 # Optional - Defaults to 1000, maximum amount of entries per CDA Request for all_entries
+        # content_types:              # Optional
+        #   cat: MyCoolMapper
+        # client_options:             # Optional
+        #   api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
+        # base_path: app_path         # Optional - Defaults to Current directory
+        # destination: destination_in_data # Optional - Defaults to _data/contentful/spaces
+        # individual_entry_files: true # Optional - Defaults to false
