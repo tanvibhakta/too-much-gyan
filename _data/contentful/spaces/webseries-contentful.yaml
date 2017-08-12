@@ -81,9 +81,17 @@ crew:
 - sys:
     id: 1jzkF2M9ws0usoMw6gygkE
     created_at: !ruby/object:DateTime 2017-08-10 18:05:26.588000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-10 23:23:48.333000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-12 06:16:23.918000000 Z
     content_type_id: crew
   name: Sunil Raoh
+  profile_picture:
+    sys:
+      id: 5NiP5UYh2Mqw4SAGQM2qEW
+      created_at: !ruby/object:DateTime 2017-08-11 21:27:07.116000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-11 21:31:44.488000000 Z
+    title: Sunil Raoh
+    description: Sunil Raoh toomuchgyan KWDb
+    url: "//images.contentful.com/lb6bcekn0913/5NiP5UYh2Mqw4SAGQM2qEW/4ff100db145bf109e94f9c7f6c0458a9/IMG-20170729-WA0048.jpg"
   nick_name: 'Excuse me Sunil '
   birthday: !ruby/object:DateTime 1978-09-04 00:00:00.000000000 Z
   hobbies:
@@ -122,9 +130,17 @@ crew:
 - sys:
     id: 6wDEUcN41U0Yguaauywwi
     created_at: !ruby/object:DateTime 2017-08-11 02:18:23.204000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-11 02:45:46.641000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-12 06:16:36.410000000 Z
     content_type_id: crew
   name: Sindhu Lokanath
+  profile_picture:
+    sys:
+      id: 64T1bVPfMWiIgigMUY0o2q
+      created_at: !ruby/object:DateTime 2017-08-11 21:18:12.326000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-11 21:18:12.326000000 Z
+    title: Sindhu Lokanath
+    description: Sindhu Lokanath toomuchgyan KWDb
+    url: "//images.contentful.com/lb6bcekn0913/64T1bVPfMWiIgigMUY0o2q/393092604f6a63f24b920520c0f5f917/IMG-20170729-WA0052.jpg"
   nick_name: Yashika
   birthday: !ruby/object:DateTime 1987-02-05 00:00:00.000000000 Z
   height: 5
@@ -157,9 +173,17 @@ crew:
 - sys:
     id: 1uT7LIAHCguoOCsEuW2GGM
     created_at: !ruby/object:DateTime 2017-08-11 14:50:11.611000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-11 15:48:20.633000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-12 06:16:50.647000000 Z
     content_type_id: crew
   name: Anupama Gowda
+  profile_picture:
+    sys:
+      id: 2RCVa5BczK0UCq2esqWMQa
+      created_at: !ruby/object:DateTime 2017-08-11 21:16:34.433000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-11 21:16:34.433000000 Z
+    title: Anupama Gowda
+    description: Anupama Gowda toomuchgyan KWDb
+    url: "//images.contentful.com/lb6bcekn0913/2RCVa5BczK0UCq2esqWMQa/82db7b49866f607ebd6a50283f10fb29/anupama-gowda-5.jpg"
   nick_name: Anu
   hobbies:
   - Not Known
