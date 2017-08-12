@@ -44,7 +44,7 @@ layout: post
   {% for actor in series.cast_members %}
     <br>
     {% capture var %}{% increment i %}{% endcapture %}
-      <a href="{{site.baseurl}}crew/{{actor}}">{{actor}}</a> as {{series.characters_in_the_same_order_as_played_by_the_cast[]}}
+      <a href="{{site.baseurl}}crew/{{ actor | downcase | replace: " ", "-"}}">{{actor}}</a> as {{series.characters_in_the_same_order_as_played_by_the_cast[]}}
   {% endfor %}
 </div>
 
