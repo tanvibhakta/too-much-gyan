@@ -4,4 +4,11 @@ layout: post
 
 {% assign crew = site.data.contentful.spaces.webseries-contentful.crew %}
 
-{{crew}}
+{% for crew-member in crew  %}
+  {% if crew-member.sys.id == page.contentful-id %}
+    {% assign crew = crew-member %}
+  {% endif %}
+{% endfor %}
+
+<!-- {{crew.previous_work | markdownify}} -->
+{{crew.nick_name}}
