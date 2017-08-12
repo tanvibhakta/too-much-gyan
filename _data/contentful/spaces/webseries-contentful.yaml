@@ -154,3 +154,83 @@ crew:
   awards_and_recognition:
   - nominations for Filmfare Award for Best Supporting Actress – Kannada and SIIMA
     Award for Best Actress
+- sys:
+    id: 1uT7LIAHCguoOCsEuW2GGM
+    created_at: !ruby/object:DateTime 2017-08-11 14:50:11.611000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-11 15:48:20.633000000 Z
+    content_type_id: crew
+  name: Anupama Gowda
+  nick_name: Anu
+  hobbies:
+  - Not Known
+  previous_work: "Actress Anupama Gowda forayed into Webseries in the year 2017 under
+    the Sakkath Studio banner. She plays the role of a hardcore Dr Rajkumar fan and
+    Kannada film buff in the Webseries Loose Connection.\n\nAnupama rose to fame with
+    `Akka`- A Family television Soap on Colors Kannada TV. Eventually she went on
+    to act in a Kannada movie titled Nagari in 2015. Her fascination for acting and
+    unmatched performance has made her one of the most sought after actress in whole
+    of Kannada Entertainment industry. \n\n\n\n#TOOMUCHANUPAMAGOWDA\n\nhttps://www.youtube.com/watch?v=MwrVA89qIKs\n\n\n__(KWDb)__
+    __Fascinating Fact__1\n\nActress Anupama Gowda's character in Loose Connection
+    is an extention of her ideals and love for Kannada Cinema \n\nhttps://www.youtube.com/watch?v=oBB1RJSZ_WU&t=179s\n\n__(KWDb)__
+    __Fascinating Fact__2\n\nWebSeries Format new but happy with my performance says
+    Anupama Gowda\n\nhttps://www.youtube.com/watch?v=9b1VO4UIHZc\n\n\n\n"
+  credits:
+  - Loose Connection
+  - Anupama
+  - '2017'
+  extra_summary: |-
+    Anupama Gowda
+    Actress
+    Rating 3.5 (bananas,img)
+
+    KWDb USP #1: Dialogue Delivery, Kannada Webseries Loose Connection
+
+    Uploaded- Aug 11th 2017,
+            https://www.youtube.com/watch?v=pJvLzqsGJsw&feature=youtu.be
+  news_item:
+  - http://timesofindia.indiatimes.com/tv/news/kannada/Anupama-Gowda-makes-her-Sandalwood-debut/articleshow/46742366.cms
+  awards_and_recognition:
+  - No input
+- sys:
+    id: 15WCKajMUAS6kAUwIYiIk6
+    created_at: !ruby/object:DateTime 2017-08-11 18:35:40.067000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-11 21:15:28.368000000 Z
+    content_type_id: crew
+  name: Pradeep
+  profile_picture:
+    sys:
+      id: 3U5eHbOdO0wW6YYkKCw2EI
+      created_at: !ruby/object:DateTime 2017-08-11 21:01:11.137000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-11 21:01:24.302000000 Z
+    title: RJ Pradeepa
+    description: RJ Pradeepa toomuchgyan KWDb
+    url: "//images.contentful.com/lb6bcekn0913/3U5eHbOdO0wW6YYkKCw2EI/4f0114bebd5cc4917c479c83d8f30d3e/rj__pradeepa_toomuchgyan.jpg"
+  nick_name: RJ Pradeepa
+  birthday: !ruby/object:DateTime 1984-04-19 00:00:00.000000000 Z
+  hobbies:
+  - Filmmaking
+  previous_work: " Blessed with the gift of gab RJ pradeep, forayed into Webseries
+    in the year 2017 under his own banner Sakkath Studio. He is a wellknown RJ on
+    Radio City 91.1FM. He is the most sought after Radio Jockey, Emcee and VJ of Bengaluru
+    City. Riding high on his success , Pradeepa also ventured into film direction
+    (Hucchudugaru- Kannada) before Loose Connection (WebSeries).\n\nHis signature
+    segment \"phone bootha\" and evening show \"City Mathu\" are the most popular
+    shows on radio.  While he is not enthralling his listeners, RJ Pradeepa is busy
+    with his Radio prank calls which are quite entertaining to the listeners. \n\n\n#TOOMUCHRJPRADEEPA\n\nhttps://www.youtube.com/watch?v=DD55o90BDQk&t=23s\n\n\n__(KWDb)__
+    __Fascinating Fact__1\n\nKannada Webseries Loose Connection is produced by Sakath
+    Studio (owned by RJ Pradeepa) along with Pentaprim Studio (owned by Ravishankar).
+    The story is written and directed by three friends - Esham Khan, Haseen Khan and
+    Raghu Shastry\n\nRead more at: https://www.filmibeat.com/kannada/news/2017/new-kannada-web-series-loose-connection-launched-pilot-episode/articlecontent-pf215829-266917.html\n\n\n__(KWDb)__
+    __Fascinating Fact__2\n\nIt took 8 months of preparation for RJ Pradeepa and his
+    team to roll out the impressive RomCom on Youtube. \n\nhttps://youtu.be/BRABxT90ZFE\n"
+  credits:
+  - Loose Connection
+  - Producer
+  - '2017'
+  extra_summary: "RJ Pradeepa\nRJ|Producer|Director\n\nRating - 4 (bananas,img)\n\nKWDb
+    USP #1: Launced First official Kannada Webseries Loose Connection on 2nd August
+    \  \n             2017\n\nUploaded- Aug 2nd 2017,\n        https://www.youtube.com/user/sakkathstudio"
+  news_item:
+  - http://www.indiaglitz.com/web-series-zamana-loose-connection-firs-one-kannada-news-191871
+  awards_and_recognition:
+  - 5 Excellence in Radio Awards ( ERA) awards in 3 years
