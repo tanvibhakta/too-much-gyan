@@ -18,6 +18,14 @@
   display: block;
   max-width: 600px;
 }
+
+.post-field a {
+  text-decoration: none;
+  border-bottom-color: $brand-color;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+}
+
 @media (max-width: $container-width) {
   .page-content {
     width: 60vw;
@@ -53,6 +61,7 @@
 .post-share {
   padding-bottom: 1rem;
 }
+
 .sharing-icons a {
   padding-right: 10px;
 }

@@ -3,18 +3,50 @@ layout: post
 ---
 
 
-{% assign series = page.name %}
+{% assign series = site.data.contentful.spaces.webseries-contentful.webSeries %}
+
 <span class="post-date">
-  {{ site.data.webseries.loose-connection.genre }} | {{ series.launch-date }}
+  {{ series.genre }} | {{ series.average_run_time_in_minutes }} minutes
 </span>
 
-<!-- Gallery for ictures and video come here -->
+    <!-- Gallery for pictures and video come here -->
 
-Director: {{ webseries.director }}
- page name
-{{page.name}}
+<br>
 
-series
-{{series}}
+<!-- Number + list of Webisodes -->
 
-{{content}}
+<span class="post-field">Directed by:
+  {% for director in series.directed_by %}
+    <a href="{{site.baseurl}}crew/{{director}}">{{director}}</a>
+  {% endfor %}
+</span>
+
+<br>
+
+<span class="post-field">Produced by:
+  {% for producer in series.produced_by %}
+    <a href="{{site.baseurl}}crew/{{producer}}">{{producer}}</a>
+  {% endfor %}
+</span>
+
+<br>
+
+<span class="post-field">Screenplay by:
+  {% for screenplay in series.screenplay_by %}
+    <a href="{{site.baseurl}}crew/{{screenplay}}">{{screenplay}}</a>,
+  {% endfor %}
+</span>
+
+<br>
+
+<div class="post-field">Starring:
+  {% assign i = -1 %}
+  {% for actor in series.cast_members %}
+    <br>
+    {% capture var %}{% increment i %}{% endcapture %}
+      <a href="{{site.baseurl}}crew/{{ actor | downcase | replace: " ", "-"}}">{{actor}}</a> as {{series}}
+  {% endfor %}
+</div>
+
+
+{{ series.summary | markdownify}}
