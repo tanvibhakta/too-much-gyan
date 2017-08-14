@@ -10,5 +10,49 @@ layout: post
   {% endif %}
 {% endfor %}
 
-<!-- {{crew.previous_work | markdownify}} -->
-{{crew.nick_name}}
+<div class="post-profile-picture">
+  <img src="{{crew.profile_picture.url}}" alt="{{crew.profile_picture.title}}">
+  <p class="img-desc post-date">{{crew.profile_picture.description}}</p>
+</div>
+
+<div class="post-field">
+  Nickname: {{crew.nick_name}} <br>
+  Birthday: {{crew.birthday}} <br>
+  Hobbies: {{crew.hobbies}} <br>
+</div>
+
+<div class="post-field">
+  <br>
+  <h2>Previous work:</h2>
+  {{ crew.previous_work | markdownify }}
+</div>
+
+<!-- <div class="post-field">
+  {% for credit in crew.credits %}
+    {{ credit}}
+  {% endfor %}
+</div> -->
+
+<div class="post-field">
+  <h2>Awards and Recognition</h2>
+  {% for award in crew.awards_and_recognition %}
+    <br>
+    {{ award }}
+  {% endfor %}
+</div>
+
+
+<div class="post-field">
+  <br>
+  <h2>Tidbits</h2>
+  {{ crew.extra_summary | markdownify }}
+</div>
+
+<div class="post-field">
+  <br>
+  <h2>In the News</h2>
+  {% for news in crew.news_item %}
+    <br>
+    <a href="{{news}}">{{news}}</a>
+  {% endfor %}  
+</div>
